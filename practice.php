@@ -11,8 +11,9 @@ $name="Kito";
 $world="'s World!";
 echo $hello.$name.$world;
 
-$tech_boost="tech";
-echo $tech_boost." boost";
+$tech_boost="tech ";
+$tech_boost.="boost";
+echo $tech_boost;
 
 $calendar_2018=[
     "January" => "1月",
