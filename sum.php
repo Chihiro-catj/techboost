@@ -1,32 +1,36 @@
-// <?php
-// function sum(){
-//     $result = 0;
-//     for($i = 1; $i <= 10; $i++){
-//         $result += $i;
-//     }
-//     return $result;
-// }
-// echo sum();
+<?php
 
-// 1~10まで足した合計値55が算出される。
+$name = "CHIHIRO";
 
-// $array=array(2,5,9,7,3,1,8,6,4);
+if ($name){
+    echo "私は CHIHIRO です";
+}else{
+    echo "あなたの名前ではありません";
+}
 
-// asort($array);
-// print_r($array);
+echo "\n";
 
-// maxに数値を入れてあげると2倍にして返す式
+$total =0;
+echo $total;
 
-// function sum($max)	{
-// 	return $max*2;
-// }
-// echo sum(100);
+for($i=0;$i<1000;$i++){
+    $total += $i;
+}
+echo $total;
 
-// function f($a,$b){
-//     return $a+$b;
-// }
-// echo f(2,3);
+$fruits=array("fuji","kougyoku","tsugaru","ourin","akane");
+foreach($fruits as $fruit){
+    echo "要素は" . $fruit;
+    echo "\n";
+}
 
-echo "Hello World";
 
+
+for($i=0; $i<=100; $i++){
+    if($i%5==0){
+        print($i);
+        print ("\n");
+}
+}
+echo $i;
 ?>
