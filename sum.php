@@ -30,7 +30,7 @@ foreach($fruits as $fruit){
 
 echo "\n";
 
-for($i=0; $i<=100; $i++){
+for($i=1; $i<=100; $i++){
     if($i%5==0){
         echo ($i);
         echo ("\n");
